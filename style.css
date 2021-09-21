@@ -1,0 +1,142 @@
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    gap: 20px;
+    list-style-type: none;
+}
+
+button {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+button, .signup {
+    background-color: #3882f6;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 100px 300px;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero button {
+    border-color: #3882f6;
+    margin-top: 20px;
+}
+
+.hero-image {
+    padding-left: 50px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 300px;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    text-align: center;
+}
+
+.information-box {
+    margin: 40px;
+}
+
+.information .text {
+    color: darkslategray;
+}
+
+.information img {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 300px;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 300px;
+}
